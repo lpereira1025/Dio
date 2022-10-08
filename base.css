@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width:100%;
+}
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+table, th, td {
+    border:1px solid black;
+}
+
+.cabecalho{
+    background-color: black;
+    color: #f1f1f1;
+}
+
+
+.mapouter{
+
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    text-decoration: none
+    
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+    line-height: 8;
+
+}
+.header {
+    min-height: 100px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    text-align: center;
+    line-height: 4;
+}
+.footer {
+    min-height: 150px;
+    margin: 0;
+}
